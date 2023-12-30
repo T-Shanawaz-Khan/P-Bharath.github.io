@@ -76,12 +76,25 @@ img{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap; /* Allow items to wrap */
+        gap: 1.5rem;
+        align-items: center;
+        justify-content: center;
        
     }
     .choice {
         margin: 3px; /* Add some margin for spacing */
         flex: 0 0 calc(33.33% - 10px); /* Set width for each item */
         max-width: calc(19.99% - 3px);
+        height: 70px;
+    }
+    
+    #msg{
+        font-size: 1rem;
+    }
+    img{
+        height: 80px;
+        width: 80px;
+        border: .2rem solid black;
     }
     /* Add more styles as needed */
 }
