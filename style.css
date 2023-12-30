@@ -66,3 +66,9 @@ img{
     padding: 1rem;
     border-radius: 1rem;
 }
+
+@media screen and (max-width: 768px) {
+  /* Your mobile screen*/
+  body {
+    font-size: 14px;
+  }
