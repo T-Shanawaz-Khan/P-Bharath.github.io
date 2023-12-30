@@ -72,3 +72,22 @@ img{
     padding: 1rem;
     border-radius: 1rem;
 }
+
+@media screen and (max-width: 320px) {
+    
+    body {
+        font-size: 14px;
+    }
+    .choices {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap; /* Allow items to wrap */
+       
+    }
+    .choice {
+        margin: 3px; /* Add some margin for spacing */
+        flex: 0 0 calc(33.33% - 10px); /* Set width for each item */
+        max-width: calc(19.99% - 3px);
+    }
+    /* Add more styles as needed */
+}
